@@ -1,0 +1,13 @@
+name: Email Test Action
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: varahichakravarthy@gmail.com
+        run: echo "Hello, world!"
